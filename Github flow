@@ -1,3 +1,6 @@
 git add .
 git commit -m "Add HTML/CSS/JS structure for expense tracker"
 git push -u origin expense-tracker-ui
+git add .
+git commit -m "Complete expense tracker with CRUD + LocalStorage"
+git push
