@@ -2,6 +2,7 @@ const balance = document.getElementById('balance');
 const form = document.getElementById('form');
 const text = document.getElementById('text');
 const amount = document.getElementById('amount');
+const list = document.getElementById('list');
 
 let transactions = JSON.parse(localStorage.getItem('transactions')) || [];
 
@@ -14,7 +15,6 @@ function addTransaction(e) {
   }
   
   const transaction = {
-const transaction = {
     id: Math.floor(Math.random() * 100000),
     text: text.value,
     amount: +amount.value
